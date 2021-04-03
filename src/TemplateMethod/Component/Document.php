@@ -66,5 +66,12 @@ class Document
         return $this;
     }
 
-
+    public function __toString(): string
+    {
+        return $this->getHeader()
+            . "\n"
+            . $this->getBody()
+            . "\n"
+            . $this->getFooter();
+    }
 }
