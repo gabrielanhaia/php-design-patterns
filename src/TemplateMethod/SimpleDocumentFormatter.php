@@ -8,14 +8,14 @@ use App\TemplateMethod\Component\Document;
 
 class SimpleDocumentFormatter extends DocumentFormatter
 {
-    public function formatHeader(Document $document): void
+    protected function formatHeader(Document $document): void
     {
         $newHeader = 'SIMPLE HEADER: ' . $document->getHeader();
 
         $document->setHeader($newHeader);
     }
 
-    public function formatBody(Document $document): void
+    protected function formatBody(Document $document): void
     {
         $newBody = 'SIMPLE BODY: ' . $document->getBody();
 

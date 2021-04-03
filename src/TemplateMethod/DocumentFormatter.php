@@ -19,11 +19,11 @@ abstract class DocumentFormatter
         $this->formatFooter($document);
     }
 
-    public abstract function formatHeader(Document $document): void;
+    protected abstract function formatHeader(Document $document): void;
 
-    public abstract function formatBody(Document $document): void;
+    protected abstract function formatBody(Document $document): void;
 
-    public function formatFooter(Document $document): void
+    protected function formatFooter(Document $document): void
     {
     }
 }
