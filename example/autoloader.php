@@ -13,7 +13,11 @@ spl_autoload_register(function ($class) {
 
 if (false === function_exists('dump')) {
     function dump($data) {
-        print_r($data);
+        echo '---------------------------------';
         echo "\n";
+        echo $data;
+        echo "\n";
+        echo '---------------------------------';
+        echo "\n\n";
     }
 }
