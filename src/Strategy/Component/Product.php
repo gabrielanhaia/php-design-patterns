@@ -12,9 +12,29 @@ class Product
 {
     private string $name;
 
+    private string $type;
+
     private float $price;
 
-    private \DateTime $createdAt;
+    private float $taxes;
+
+    /**
+     * @return string
+     */
+    public function getType(): string
+    {
+        return $this->type;
+    }
+
+    /**
+     * @param string $type
+     * @return Product
+     */
+    public function setType(string $type): Product
+    {
+        $this->type = $type;
+        return $this;
+    }
 
     /**
      * @return string
@@ -53,20 +73,20 @@ class Product
     }
 
     /**
-     * @return \DateTime
+     * @return float
      */
-    public function getCreatedAt(): \DateTime
+    public function getTaxes(): float
     {
-        return $this->createdAt;
+        return $this->taxes;
     }
 
     /**
-     * @param \DateTime $createdAt
+     * @param float $taxes
      * @return Product
      */
-    public function setCreatedAt(\DateTime $createdAt): Product
+    public function setTaxes(float $taxes): Product
     {
-        $this->createdAt = $createdAt;
+        $this->taxes = $taxes;
         return $this;
     }
 }
