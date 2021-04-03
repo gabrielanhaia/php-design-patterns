@@ -10,3 +10,10 @@ spl_autoload_register(function ($class) {
 
     require_once $filePath;
 });
+
+if (false === function_exists('dump')) {
+    function dump($data) {
+        print_r($data);
+        echo "\n";
+    }
+}
