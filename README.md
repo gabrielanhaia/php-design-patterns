@@ -7,6 +7,7 @@ We do not have any dependency on a framework, and the examples are the most real
 
 - Template Method
 - Strategy
+- Adapter
 
 ## Dependencies
 
