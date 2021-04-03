@@ -1,4 +1,4 @@
-# PHP - Design Patterns
+# PHP 8 - Design Patterns
 
 This repository was created for the course [COURSE NAME HERE] on Udemy.
 We do not have any dependency on a framework, and the examples are the most real as possible based on my own experiences solving real-life problems. Once you learn the design pattern and its concept, it will be effortless to apply it in any PHP project.
