@@ -12,7 +12,7 @@ class Product
 {
     private string $name;
 
-    private string $type;
+    private string $category;
 
     private float $price;
 
@@ -21,18 +21,18 @@ class Product
     /**
      * @return string
      */
-    public function getType(): string
+    public function getCategory(): string
     {
-        return $this->type;
+        return $this->category;
     }
 
     /**
-     * @param string $type
+     * @param string $category
      * @return Product
      */
-    public function setType(string $type): Product
+    public function setCategory(string $category): Product
     {
-        $this->type = $type;
+        $this->category = $category;
         return $this;
     }
 
