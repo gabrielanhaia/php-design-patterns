@@ -8,6 +8,7 @@ There is no dependency on a framework, and the examples are the most real as pos
 - Template Method
 - Strategy
 - Adapter
+- Null Object
 
 ## Dependencies
 
