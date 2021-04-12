@@ -10,7 +10,7 @@ help:
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}strategy${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}template-method${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}adapter${COLOR_RESET}"
-		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object{COLOR_RESET}"
+		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
 
 strategy:
 	docker run -it design-patterns php /app/example/strategy.php
