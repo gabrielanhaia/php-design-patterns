@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 namespace App\NullObject;
 
-class InvoiceCreatedEvent extends EventInterface
+class InvoiceCreatedEvent extends BaseEvent
 {
-    public function dispatch()
+    public function dispatch(): void
     {
-        $this->eventDispatcher->dispatchEvent(self::class);
+        $serializedEvent = get_class($this);
+
+        $this->eventDispatcher->dispatch($serializedEvent);
     }
 }
