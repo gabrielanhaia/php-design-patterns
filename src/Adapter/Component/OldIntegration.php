@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Adapter\Component;
 
 /**

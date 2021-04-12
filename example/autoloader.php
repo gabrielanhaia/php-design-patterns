@@ -15,7 +15,7 @@ if (false === function_exists('dump')) {
     function dump($data) {
         echo '---------------------------------';
         echo "\n";
-        echo $data;
+        print_r($data);
         echo "\n";
         echo '---------------------------------';
         echo "\n\n";
