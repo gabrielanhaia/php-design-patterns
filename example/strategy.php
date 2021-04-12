@@ -10,7 +10,7 @@ require_once 'autoloader.php';
 
 $product = new Product;
 $product->setName('Product Test')
-    ->setCategory('electronic')
+    ->setCategory('electronics')
     ->setPrice(100);
 
 switch ($product->getCategory()) {
