@@ -1,23 +1,31 @@
 <?php
 
-use App\TemplateMethod\Component\Document;
-use App\TemplateMethod\CustomDocumentFormatter;
-use App\TemplateMethod\SimpleDocumentFormatter;
+use App\TemplateMethod\Component\StudentDto;
+use App\TemplateMethod\DevCertificateGenerator;
 
 require_once 'autoloader.php';
 
-$document1 = new Document();
-$document1->setHeader('[HEADER HERE]')
-    ->setBody('[BODY HERE]')
-    ->setFooter('[FOOTER HERE]');
+$coursesAvailable = [
+    'php_8' => 'Building Applications with PHP 8',
+    'social_media_marketing' => 'Social Media Marketing',
+    'photo_masterclass' => 'Photography Masterclass'
+];
 
-$document2 = clone $document1;
+$student = new StudentDto(
+    'Gabriel Anhaia',
+    $coursesAvailable['php_8'],
+    new \DateTimeImmutable(),
+    'gabriel@anhaia.com',
+    123456789
+);
 
-$simpleDocumentFormatter = new SimpleDocumentFormatter();
-$customDocumentFormatter = new CustomDocumentFormatter();
+// A Factory can be implemented here, but this is not the purpose of this example.
+switch ($student->getCourseName()) {
+    case $coursesAvailable['php_8']:
+        $template = new DevCertificateGenerator;
+        break;
+    default:
+        throw new \Exception('Course does not have a template for Certificate flow.');
+}
 
-$simpleDocumentFormatter->formatDocument($document1);
-$customDocumentFormatter->formatDocument($document2);
-
-dump($document1);
-dump($document2);
+$template->processCertificateFlow($student);

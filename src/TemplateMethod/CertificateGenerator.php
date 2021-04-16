@@ -27,7 +27,7 @@ abstract class CertificateGenerator
 
     protected abstract function sendCertificateByEmail(StudentDto $studentDto, string $certificateString): void;
 
-    public function notifyStudentBySms(int $phoneNumber, string $studentName) {
+    protected function notifyStudentBySms(int $phoneNumber, string $studentName) {
         // This is just a simulation.
         dump("SMS message sent to {$phoneNumber}: Hello {$studentName}, you certificate was generated.");
     }
