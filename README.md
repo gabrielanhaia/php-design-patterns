@@ -6,7 +6,7 @@ There is no dependency on a framework, and the examples are the most real as pos
 ## Patterns
 
 - Template Method
-- Strategy
+- Strategy [(Learn it here)](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed)
 - Adapter
 - Null Object
 
