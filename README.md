@@ -3,7 +3,7 @@
 ![Licence](https://img.shields.io/badge/licence-MIT-blue)
 ![Package Stars](https://img.shields.io/badge/stars-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-yellow)
 
-<img src="./logo.png" alt="Logo - Laravel Circuit Breaker"  width="30%" height="30%">
+<img src="./logo.png" alt="Logo - Laravel Circuit Breaker"  width="80%" height="80%">
 
 
 This repository was created to show the implementation of a variety of Design Patterns using PHP 8.
