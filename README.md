@@ -1,10 +1,9 @@
-# PHP 8 - Design Patterns
+<img src="./logo.png" alt="Logo - Laravel Circuit Breaker"  width="80%" height="80%">
 
 ![Licence](https://img.shields.io/badge/licence-MIT-blue)
 ![Package Stars](https://img.shields.io/badge/stars-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-yellow)
 
-<img src="./logo.png" alt="Logo - Laravel Circuit Breaker"  width="80%" height="80%">
-
+# PHP 8 - Design Patterns
 
 This repository was created to show the implementation of a variety of Design Patterns using PHP 8.
 There is no dependency on a framework, and the examples are the most real as possible based on my own experiences solving real-life problems. Once you learn the design pattern and its concept, it will be effortless to apply it in any PHP project.
