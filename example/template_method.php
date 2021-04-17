@@ -2,6 +2,8 @@
 
 use App\TemplateMethod\Component\StudentDto;
 use App\TemplateMethod\DevCertificateGenerator;
+use App\TemplateMethod\MarketingCertificateGenerator;
+use App\TemplateMethod\PhotoCertificateGenerator;
 
 require_once 'autoloader.php';
 
@@ -23,6 +25,12 @@ $student = new StudentDto(
 switch ($student->getCourseName()) {
     case $coursesAvailable['php_8']:
         $template = new DevCertificateGenerator;
+        break;
+    case $coursesAvailable['social_media_marketing']:
+        $template = new MarketingCertificateGenerator;
+        break;
+    case $coursesAvailable['photo_masterclass']:
+        $template = new PhotoCertificateGenerator;
         break;
     default:
         throw new \Exception('Course does not have a template for Certificate flow.');
