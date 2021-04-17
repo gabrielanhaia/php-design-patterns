@@ -6,7 +6,7 @@ There is no dependency on a framework, and the examples are the most real as pos
 ## Patterns
 
 - Template Method
-- Strategy [(Learn it here)](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed)
+- Strategy [[Learn]](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed)
 - Adapter
 - Null Object
 
@@ -16,7 +16,7 @@ There is no dependency on a framework, and the examples are the most real as pos
 
 ## Running the project
 
-I strongly recommend that you follow the course instructions and run it with Docker. It will be much easier, and you need to install Docker on your computer, independent of the OS you are using.
+I strongly recommend that you follow the articles (links above) and run it with Docker. It will be much easier, and you need to install Docker on your computer, independent of the OS you are using.
 With a few commands, you will run/test all the Design Patterns implemented through the course.
 
 Build de container:
