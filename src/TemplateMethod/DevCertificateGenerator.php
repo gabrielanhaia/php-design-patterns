@@ -16,7 +16,7 @@ class DevCertificateGenerator extends CertificateGenerator
     {
         $completedAt = $studentDto->getCompletedAt()->format('Y-m-d');
 
-        return "Student {$studentDto->getName()} completed the course {$studentDto->getCourseName()} on {$completedAt}";
+        return "[DEVELOPMENT] Student {$studentDto->getName()} completed the course {$studentDto->getCourseName()} on {$completedAt}";
     }
 
     protected function sendCertificateByEmail(StudentDto $studentDto, string $certificateString): void
