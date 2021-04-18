@@ -26,7 +26,7 @@ With a few commands, you will run/test all the Design Patterns implemented throu
 
 Build de container:
 
-```# docker build -t design-patterns .``` or if you preffer ```# make build-project```
+```# docker build -t design-patterns .``` or if you preffer ```# make build```
 
 Run the following command in order to test the design patterns:
 

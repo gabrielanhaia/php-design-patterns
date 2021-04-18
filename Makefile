@@ -7,13 +7,13 @@ COLOR_TITLE = \033[0;31m
 
 help:
 		@echo " ${COLOR_TITLE}> List of design patterns to run:${COLOR_RESET}"
-		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}build-project${COLOR_RESET}"
+		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}build{COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}strategy${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}template-method${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}adapter${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
 
-build-project:
+build:
 	docker build -t design-patterns .
 
 strategy:
