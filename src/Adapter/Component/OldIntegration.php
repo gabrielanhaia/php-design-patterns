@@ -8,22 +8,30 @@ namespace App\Adapter\Component;
  */
 class OldIntegration
 {
-    public function getAllUsers()
+    const WSDL_URL = 'http://score-application.com.test/people_score.wsdl';
+
+    /**
+     * This method is just an example. It doesn't work. It's just to show how it would look like.
+     * That is why there are code commented, and the return is always the same.
+     *
+     * Here should be a lot of code that uses the PHP \SOAP client to call the external API.
+     */
+    public function getUserScore($uuid)
     {
-        // Request the data from the external API.
-        return [
-            [
-                'uuid' => '7de2a62e-7628-4d2f-a02b-fe395c5ce85b',
-                'name' => 'Gabriel Anhaia',
-            ],
-            [
-                'uuid' => '7de2a62e-7628-4d2f-a02b-fe395c5ce85b',
-                'name' => 'Brian Park',
-            ],
-            [
-                'uuid' => '41e72c66-1998-4ea5-9ce8-12eef91e267d',
-                'name' => 'Roderick Mcbride'
-            ]
+        //$soapClient = new \SoapClient(self::WSDL_URL, [
+            //'exceptions' => true
+        //]);
+
+        //$requestData = ['user_uuid' => $uuid];
+
+        //$response = $soapClient->GetScore($requestData);
+
+        $response = [
+            'uuid' => '7de2a62e-7628-4d2f-a02b-fe395c5ce85b',
+            'name' => 'Gabriel Anhaia',
+            'score' => 65.2
         ];
+
+        return $response;
     }
 }

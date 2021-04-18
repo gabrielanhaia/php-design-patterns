@@ -8,23 +8,24 @@ namespace App\Adapter\Component;
  * Class User
  * @package App\Adapter\Component
  */
-class User
+class UserScore
 {
     private string $uuid;
-
     private string $name;
+    private float $score;
 
-    public function __construct(string $uuid, string $name)
+    public function __construct(string $uuid, string $name, float $score)
     {
         $this->uuid = $uuid;
         $this->name = $name;
+        $this->score = $score;
     }
 
     /**
      * @param string $uuid
-     * @return User
+     * @return UserScore
      */
-    public function setUuid(string $uuid): User
+    public function setUuid(string $uuid): UserScore
     {
         $this->uuid = $uuid;
         return $this;
@@ -32,9 +33,9 @@ class User
 
     /**
      * @param string $name
-     * @return User
+     * @return UserScore
      */
-    public function setName(string $name): User
+    public function setName(string $name): UserScore
     {
         $this->name = $name;
         return $this;
@@ -54,5 +55,23 @@ class User
     public function getName(): string
     {
         return $this->name;
+    }
+
+    /**
+     * @return float
+     */
+    public function getScore(): float
+    {
+        return $this->score;
+    }
+
+    /**
+     * @param float $score
+     * @return UserScore
+     */
+    public function setScore(float $score): UserScore
+    {
+        $this->score = $score;
+        return $this;
     }
 }
