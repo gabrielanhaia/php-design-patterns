@@ -12,7 +12,7 @@ There is no dependency on a framework, and the examples are the most real as pos
 
 - Template Method [[Learn]](https://medium.com/mestredev/template-method-php-8-a357f3665a4b)
 - Strategy [[Learn]](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed)
-- Adapter
+- Adapter [[Learn]](https://medium.com/mestredev/adapter-php-8-75e00034ae48)
 - Null Object
 
 ## Dependencies
