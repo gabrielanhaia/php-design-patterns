@@ -1,12 +1,12 @@
 <?php
 
 use App\Adapter\Component\OldIntegration;
-use App\Adapter\IntegrationAdapter;
+use App\Adapter\ScoreIntegrationAdapter;
 
 require_once 'autoloader.php';
 
 $oldIntegration = new OldIntegration;
-$integrationAdapter = new IntegrationAdapter($oldIntegration);
+$integrationAdapter = new ScoreIntegrationAdapter($oldIntegration);
 
 $users = $integrationAdapter->getUsers();
 

@@ -1,10 +1,12 @@
 <?php
 
-namespace App\Adapter\Component;
+namespace App\Adapter;
 
 /**
  * Class OldIntegration
  * @package App\Adapter\Component
+ *
+ * This class is the "Adaptee" of our pattern.
  */
 class OldIntegration
 {
@@ -16,7 +18,7 @@ class OldIntegration
      *
      * Here should be a lot of code that uses the PHP \SOAP client to call the external API.
      */
-    public function getUserScore($uuid)
+    public function getScore($uuid)
     {
         //$soapClient = new \SoapClient(self::WSDL_URL, [
             //'exceptions' => true
