@@ -22,6 +22,10 @@ class ScoreIntegrationAdapter implements ScoreIntegrationTarget
         $this->oldIntegration = $oldIntegration;
     }
 
+    /**
+     * @param string $uuid
+     * @return UserScore
+     */
     public function getUserScore(string $uuid): UserScore
     {
         $rawUser = $this->oldIntegration->getScore($uuid);
@@ -29,7 +33,7 @@ class ScoreIntegrationAdapter implements ScoreIntegrationTarget
         $formattedUser = new UserScore(
             $rawUser['uuid'],
             $rawUser['name'],
-            $rawUser['response']
+            $rawUser['score']
         );
 
         return $formattedUser;
