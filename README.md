@@ -10,34 +10,37 @@ Everyweek a new Pattern + Article on www.medium.com/@anhaia.gabriel and www.medi
 This repository was created to show the implementation of a variety of Design Patterns using PHP 8.
 There is no dependency on a framework, and the examples are the most real as possible based on my own experiences solving real-life problems. Once you learn the design pattern and its concept, it will be effortless to apply it in any PHP project.
 
-## Patterns
+## Patterns implemented + Article
 
 - Template Method [[Learn]](https://medium.com/mestredev/template-method-php-8-a357f3665a4b)
 - Strategy [[Learn]](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed)
 - Adapter [[Learn]](https://medium.com/mestredev/adapter-php-8-75e00034ae48)
+
+## Coming soon
+
 - Null Object (soon)
-- Command (soon)
-- Factory Method (soon)
-- Abstract Factory (soon)
-- Builder (soon)
-- State (soon)
-- Decorator (soon)
-- Object Pool (soon)
-- Prototype (soon)
-- Singleton (soon)
-- Bridge (soon)
-- Composite (soon)
-- Facade (soon)
-- Fly weight (soon)
-- Proxy (soon)
-- Chain of Responsability (soon)
-- Interpreter (soon)
-- Iterator (soon)
-- Mediator (soon)
-- Money (soon)
-- Memento (soon)
-- Observer (soon)
-- Visitor (soon)
+- Command
+- Factory Method
+- Abstract Factory
+- Builder
+- State
+- Decorator
+- Object Pool
+- Prototype
+- Singleton
+- Bridge
+- Composite
+- Facade
+- Fly weight
+- Proxy
+- Chain of Responsability
+- Interpreter
+- Iterator
+- Mediator
+- Money
+- Memento
+- Observer
+- Visitor
 
 ## Dependencies
 
