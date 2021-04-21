@@ -3,6 +3,8 @@
 ![Licence](https://img.shields.io/badge/licence-MIT-blue)
 ![Package Stars](https://img.shields.io/badge/stars-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-yellow)
 
+Everyweek a new Pattern + Article on www.medium.com/@anhaia.gabriel and www.medium.com/mestredev
+
 # PHP 8 - Design Patterns
 
 This repository was created to show the implementation of a variety of Design Patterns using PHP 8.
