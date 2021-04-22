@@ -7,18 +7,22 @@ Everyweek a new Pattern + Article on www.medium.com/@anhaia.gabriel and www.medi
 
 # PHP 8 - Design Patterns
 
-This repository was created to show the implementation of a variety of Design Patterns using PHP 8.
-There is no dependency on a framework, and the examples are the most real as possible based on my own experiences solving real-life problems. Once you learn the design pattern and its concept, it will be effortless to apply it in any PHP project.
+This repository was created to show the implementation of a variety of Design Patterns using PHP 8. There is no
+dependency on a framework, and the examples are the most real as possible based on my own experiences solving real-life
+problems. Once you learn the design pattern and its concept, it will be effortless to apply it in any PHP project.
 
 ## Patterns implemented + Article
 
-- Template Method [[Learn]](https://medium.com/mestredev/template-method-php-8-a357f3665a4b)
-- Strategy [[Learn]](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed)
-- Adapter [[Learn]](https://medium.com/mestredev/adapter-php-8-75e00034ae48)
+| 📖 Pattern              |   ✍️ Article / Post 📚                                                                                        |
+| -----------          | -----------                                                                                          |
+| Template Method      | [LEARN HERE 📖 ](https://medium.com/mestredev/template-method-php-8-a357f3665a4b)                    |
+| Strategy             | [LEARN HERE 📖 ](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed)        |
+| Adapter              | [LEARN HERE 📖 ](https://medium.com/mestredev/adapter-php-8-75e00034ae48)                            |
+| Facade               | [LEARN HERE 📖 ](https://medium.com/mestredev)                                                       |
 
 ## Coming soon
 
-- Null Object (soon)
+- Null Object
 - Command
 - Factory Method
 - Abstract Factory
@@ -30,7 +34,6 @@ There is no dependency on a framework, and the examples are the most real as pos
 - Singleton
 - Bridge
 - Composite
-- Facade
 - Fly weight
 - Proxy
 - Chain of Responsability
@@ -48,8 +51,9 @@ There is no dependency on a framework, and the examples are the most real as pos
 
 ## Running the project
 
-I strongly recommend that you follow the articles (links above) and run it with Docker. It will be much easier, and you need to install Docker on your computer, independent of the OS you are using.
-With a few commands, you will run/test all the Design Patterns implemented through the course.
+I strongly recommend that you follow the articles (links above) and run it with Docker. It will be much easier, and you
+need to install Docker on your computer, independent of the OS you are using. With a few commands, you will run/test all
+the Design Patterns implemented through the course.
 
 Build de container:
 
