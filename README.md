@@ -66,3 +66,7 @@ Run the following command in order to test the design patterns:
 You just need to run the command with the pattern you want to test, for example:
 
 ```# make strategy```
+
+## Additional Information
+
+- If you take a look at the examples into the blog, or inside the folders `/src/{$pattern_name}/` you will notice that all the examples contain a folder called `components`, those folders are the files/classes used to demonstrate how to use each pattern. Never consider what is in there as part of the pattern! They are not to be followed in your applications.
