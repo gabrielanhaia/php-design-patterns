@@ -8,11 +8,31 @@ final class Product
 
     protected string $name;
 
-    protected string $barCode;
+    protected int $barCode;
 
     protected int $stock = 0;
 
     protected float $price;
+
+    protected bool $isOnMarketplace = false;
+
+    /**
+     * @return bool
+     */
+    public function isOnMarketplace(): bool
+    {
+        return $this->isOnMarketplace;
+    }
+
+    /**
+     * @param bool $isOnMarketplace
+     * @return Product
+     */
+    public function setIsOnMarketplace(bool $isOnMarketplace): Product
+    {
+        $this->isOnMarketplace = $isOnMarketplace;
+        return $this;
+    }
 
     /**
      * @return string
@@ -51,18 +71,18 @@ final class Product
     }
 
     /**
-     * @return string
+     * @return int
      */
-    public function getBarCode(): string
+    public function getBarCode(): int
     {
         return $this->barCode;
     }
 
     /**
-     * @param string $barCode
+     * @param int $barCode
      * @return Product
      */
-    public function setBarCode(string $barCode): Product
+    public function setBarCode(int $barCode): Product
     {
         $this->barCode = $barCode;
         return $this;
