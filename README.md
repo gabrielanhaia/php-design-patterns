@@ -57,7 +57,7 @@ the Design Patterns implemented through the course.
 
 Build de container:
 
-```# docker build -t design-patterns .``` or if you preffer ```# make build```
+```# docker build -t design-patterns .``` or if you prefer ```# make build```
 
 Run the following command in order to test the design patterns:
 
