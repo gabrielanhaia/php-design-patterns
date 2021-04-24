@@ -19,6 +19,7 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 | Strategy             | [LEARN HERE 📖 ](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed)        |
 | Adapter              | [LEARN HERE 📖 ](https://medium.com/mestredev/adapter-php-8-75e00034ae48)                            |
 | Facade               | [LEARN HERE 📖 ](https://medium.com/mestredev/facade-php-8-design-patterns-40b1ef8566b5)                                                       |
+| Observer             | Soon |
 
 ## Coming soon
 
@@ -42,7 +43,6 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 - Mediator
 - Money
 - Memento
-- Observer
 - Visitor
 
 ## Dependencies
@@ -69,4 +69,7 @@ You just need to run the command with the pattern you want to test, for example:
 
 ## Additional Information
 
-- If you take a look at the examples into the blog, or inside the folders `/src/{$pattern_name}/` you will notice that all the examples contain a folder called `components`, those folders are the files/classes used to demonstrate how to use each pattern. Never consider what is in there as part of the pattern! They are not to be followed in your applications.
+- If you take a look at the examples into the blog, or inside the folders `/src/{$pattern_name}/` you will notice that
+  all the examples contain a folder called `components`, those folders are the files/classes used to demonstrate how to
+  use each pattern. Never consider what is in there as part of the pattern! They are not to be followed in your
+  applications.
