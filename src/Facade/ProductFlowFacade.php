@@ -31,27 +31,29 @@ class ProductFlowFacade
         $this->integrationSoapErp = $integrationSoapErp;
     }
 
-    public function createProduct(string $name, float $initialPrice, int $initialStock = 0): void
+    public function createProducts(array $products): void
     {
-        $product = (new Product)
-            ->setBarCode(BarCodeUtil::generateBarCode())
-            ->setName($name)
-            ->setPrice($initialPrice)
-            ->setStock($initialStock)
-            ->setUuid('3786ebae-4816-46a8-88ac-7aa5b530524f');
+        foreach ($products as $product) {
+            $product = (new Product)
+                ->setBarCode(BarCodeUtil::generateBarCode())
+                ->setName($product['name'])
+                ->setPrice($product['price'])
+                ->setStock($product['stock'])
+                ->setUuid('3786ebae-4816-46a8-88ac-7aa5b530524f');
 
-        $this->productRepository->persist($product);
+            $this->productRepository->persist($product);
 
-        $this->marketplaceIntegration->createProduct($product);
+            $this->marketplaceIntegration->createProduct($product);
 
-        $this->marketplaceIntegration->insertPrice($product->getUuid(), $product->getPrice());
+            $this->marketplaceIntegration->insertPrice($product->getUuid(), $product->getPrice());
 
-        $this->marketplaceIntegration->insertStock($product->getUuid(), $product->getStock());
+            $this->marketplaceIntegration->insertStock($product->getUuid(), $product->getStock());
 
-        $product->setIsOnMarketplace(true);
+            $product->setIsOnMarketplace(true);
 
-        $this->productRepository->update($product);
+            $this->productRepository->update($product);
 
-        $this->integrationSoapErp->setProductOnMarketplace($product, true);
+            $this->integrationSoapErp->setProductOnMarketplace($product, true);
+        }
     }
 }

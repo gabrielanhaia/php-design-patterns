@@ -13,4 +13,8 @@ $integrationSoapErp = new IntegrationSoapErp;
 
 $productFlowFacade = new ProductFlowFacade($productRepository, $marketplaceIntegration, $integrationSoapErp);
 
-$productFlowFacade->createProduct('Nice Mug', 10.5, 50);
+$products = [
+    ['name' => 'Nice Mug', 'price' => 10.5, 'stock' => 50],
+    ['name' => 'Smartphone Model X', 'price' => 100, 'stock' => 1000],
+];
+$productFlowFacade->createProducts($products);
