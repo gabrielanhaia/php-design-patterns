@@ -11,6 +11,7 @@ help:
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}strategy${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}template-method${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}adapter${COLOR_RESET}"
+		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}facade{COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
 
 build:
@@ -27,3 +28,6 @@ adapter:
 
 null-object:
 	docker run -it design-patterns php /app/example/null_object.php
+
+facade:
+	docker run -it design-patterns php /app/example/facade.php
