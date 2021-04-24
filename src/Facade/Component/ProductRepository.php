@@ -18,6 +18,7 @@ class ProductRepository
 
     public function update(Product $product): void
     {
+        // It could update into the database here.
         echo $product->getName() . " updated.\n";
     }
 }

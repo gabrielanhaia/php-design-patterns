@@ -16,7 +16,6 @@ use App\Facade\Component\ProductRepository;
 class ProductFlowFacade
 {
     private ProductRepository $productRepository;
-
     private MarketplaceIntegration $marketplaceIntegration;
     private IntegrationSoapErp $integrationSoapErp;
 
