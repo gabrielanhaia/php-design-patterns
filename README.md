@@ -19,13 +19,13 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 | Strategy             | [LEARN HERE 📖 ](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed)        |
 | Adapter              | [LEARN HERE 📖 ](https://medium.com/mestredev/adapter-php-8-75e00034ae48)                            |
 | Facade               | [LEARN HERE 📖 ](https://medium.com/mestredev/facade-php-8-design-patterns-40b1ef8566b5)                                                       |
-| Observer             | Soon |
+| Factory Method             | Soon |
 
 ## Coming soon
 
 - Null Object
 - Command
-- Factory Method
+- Observer
 - Abstract Factory
 - Builder
 - State
