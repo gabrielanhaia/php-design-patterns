@@ -6,16 +6,17 @@ COLOR_COMMENT = \033[33m
 COLOR_TITLE = \033[0;31m
 
 help:
-		@echo " ${COLOR_TITLE}> List of design patterns to run:${COLOR_RESET}"
+		@echo " ${COLOR_TITLE}> List of design patterns available:${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}build${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}strategy${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}template-method${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}adapter${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}facade${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}builder${COLOR_RESET}"
+		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}observer${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
 
-build:
+build project (Docker):
 	docker build -t design-patterns .
 
 strategy:
@@ -35,3 +36,6 @@ facade:
 
 builder:
 	docker run -it design-patterns php /app/example/builder.php
+
+observer:
+	docker run -it design-patterns php /app/example/observer.php

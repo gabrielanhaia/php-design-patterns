@@ -13,19 +13,19 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 
 ## Patterns implemented + Article
 
-| 📖 Pattern           |   ✍️ Article / Post 📚                                                                               | Code Example / Implementation |
-| -----------          | -----------                                                                                           | -------------|
-| Template Method      | [LEARN HERE 📖 ](https://medium.com/mestredev/template-method-php-8-a357f3665a4b)                    |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/TemplateMethod) |
-| Strategy             | [LEARN HERE 📖 ](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed)        |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Strategy) |
-| Adapter              | [LEARN HERE 📖 ](https://medium.com/mestredev/adapter-php-8-75e00034ae48)                            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Adapter) |
-| Facade               | [LEARN HERE 📖 ](https://medium.com/mestredev/facade-php-8-design-patterns-40b1ef8566b5)             |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Facade) |
-| Builder              | Soon                                                                                                 |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Builder) |
+| 📖 Pattern          | Code Example / Implementation    |   ✍️ Article / Post 📚  |                                                                               
+| -----------         | -------------                    | -----------  |                                                                                          
+| Template Method     |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/TemplateMethod)  | [LEARN HERE 📖 ](https://medium.com/mestredev/template-method-php-8-a357f3665a4b) |                     
+| Strategy            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Strategy)  | [LEARN HERE 📖 ](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed) |        
+| Adapter             |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Adapter)  | [LEARN HERE 📖 ](https://medium.com/mestredev/adapter-php-8-75e00034ae48) |                            
+| Facade              |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Facade)  | [LEARN HERE 📖 ](https://medium.com/mestredev/facade-php-8-design-patterns-40b1ef8566b5)  |            
+| Builder             |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Builder)  | Soon  |                                                                                                
+| Observer            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Observer)  | Soon  |                                                                                                
 
 ## Coming soon
 
 - Null Object
 - Command
-- Observer
 - Abstract Factory
 - Factory Method
 - State
