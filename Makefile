@@ -7,11 +7,12 @@ COLOR_TITLE = \033[0;31m
 
 help:
 		@echo " ${COLOR_TITLE}> List of design patterns to run:${COLOR_RESET}"
-		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}build{COLOR_RESET}"
+		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}build${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}strategy${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}template-method${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}adapter${COLOR_RESET}"
-		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}facade{COLOR_RESET}"
+		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}facade${COLOR_RESET}"
+		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}builder${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
 
 build:
@@ -31,3 +32,6 @@ null-object:
 
 facade:
 	docker run -it design-patterns php /app/example/facade.php
+
+builder:
+	docker run -it design-patterns php /app/example/builder.php
