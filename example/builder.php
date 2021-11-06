@@ -11,3 +11,5 @@ $paymentMethodDirector = new PaymentMethodDirector($paymentMethodBuilderConcrete
 $paymentMethod = $paymentMethodDirector->buildPaymentMethod();
 
 dump($paymentMethod);
+
+// Note: You can use the Builder without the Director if you need.
