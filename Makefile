@@ -14,6 +14,7 @@ help:
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}facade${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}builder${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}observer${COLOR_RESET}"
+		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}decorator${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
 
 build project (Docker):
@@ -39,3 +40,6 @@ builder:
 
 observer:
 	docker run -it design-patterns php /app/example/observer.php
+
+decorator:
+	docker run -it design-patterns php /app/example/decorator.php

@@ -21,15 +21,15 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 | Facade              |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Facade)  | [LEARN HERE 📖 ](https://medium.com/mestredev/facade-php-8-design-patterns-40b1ef8566b5)  |            
 | Builder             |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Builder)  | Soon  |                                                                                                
 | Observer            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Observer)  | Soon  |                                                                                                
+| Null Object         |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/NullObject)  | Soon  |                                                                                                
+| Decorator           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Decorator)  | Soon  |
 
 ## Coming soon
 
-- Null Object
 - Command
 - Abstract Factory
 - Factory Method
 - State
-- Decorator
 - Object Pool
 - Prototype
 - Singleton
@@ -37,7 +37,7 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 - Composite
 - Fly weight
 - Proxy
-- Chain of Responsability
+- Chain of Responsibility
 - Interpreter
 - Iterator
 - Mediator
