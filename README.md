@@ -5,7 +5,7 @@
 
 Everyweek a new Pattern + Article on www.medium.com/@anhaia.gabriel and www.medium.com/mestredev
 
-# PHP 8 - Design Patterns
+# PHP 8.1 - Design Patterns
 
 This repository was created to show the implementation of a variety of Design Patterns using PHP 8. There is no
 dependency on a framework, and the examples are the most real as possible based on my own experiences solving real-life
