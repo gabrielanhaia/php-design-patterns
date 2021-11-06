@@ -51,15 +51,15 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 
 ## Running the project
 
-I strongly recommend that you follow the articles (links above) and run it with Docker. It will be much easier, and you
+I strongly recommend that you follow the articles (links above) and run them with Docker. It will be much easier, and you
 need to install Docker on your computer, independent of the OS you are using. With a few commands, you will run/test all
-the Design Patterns implemented through the course.
+the Design Patterns implemented throughout the course .
 
 Build de container:
 
 ```# docker build -t design-patterns .``` or if you prefer ```# make build```
 
-Run the following command in order to test the design patterns:
+Run the following commands in order to test the design patterns:
 
 ```# make help``` and then you will see the list of commands
 
