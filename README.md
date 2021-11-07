@@ -23,6 +23,7 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 | Observer            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Observer)  | Soon  |                                                                                                
 | Null Object         |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/NullObject)  | Soon  |                                                                                                
 | Decorator           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Decorator)  | Soon  |
+| Money               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Money)  | Soon  |
 
 ## Coming soon
 
@@ -41,7 +42,6 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 - Interpreter
 - Iterator
 - Mediator
-- Money
 - Memento
 - Visitor
 

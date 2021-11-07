@@ -16,6 +16,7 @@ help:
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}observer${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}decorator${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
+		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}money${COLOR_RESET}"
 
 build project (Docker):
 	docker build -t design-patterns .
@@ -43,3 +44,6 @@ observer:
 
 decorator:
 	docker run -it design-patterns php /app/example/decorator.php
+
+money:
+	docker run -it design-patterns php /app/example/money.php
