@@ -30,7 +30,6 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 
 - Command
 - Abstract Factory
-- Factory Method
 - State
 - Object Pool
 - Prototype
