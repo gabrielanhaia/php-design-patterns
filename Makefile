@@ -18,6 +18,7 @@ help:
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}money${COLOR_RESET}"
 		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}factory-method${COLOR_RESET}"
+		@echo " ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}abstract-factory${COLOR_RESET}"
 
 build project (Docker):
 	docker build -t design-patterns .
@@ -51,3 +52,6 @@ money:
 
 factory-method:
 	docker run -it design-patterns php /app/example/factory_method.php
+
+abstract-factory:
+	docker run -it design-patterns php /app/example/abstract_factory.php
