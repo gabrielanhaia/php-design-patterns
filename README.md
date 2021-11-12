@@ -26,23 +26,23 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 | Money               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Money)  | Soon  |
 | Null Object         |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/NullObject)  | Soon  |                                                                                                
 | Observer            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Observer)  | Soon  |                                                                                                
+| Proxy               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Proxy)  | Soon  |                                                                                                
 
 ## Coming soon
 
-- Command
-- State
-- Object Pool
-- Prototype
-- Singleton
 - Bridge
+- Chain of Responsibility
+- Command
 - Composite
 - Fly weight
-- Proxy
-- Chain of Responsibility
 - Interpreter
 - Iterator
 - Mediator
 - Memento
+- Object Pool
+- Prototype
+- Singleton
+- State
 - Visitor
 
 ## Dependencies
