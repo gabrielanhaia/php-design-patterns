@@ -27,6 +27,7 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 | Null Object         |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/NullObject)  | Soon  |                                                                                                
 | Observer            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Observer)  | Soon  |                                                                                                
 | Proxy               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Proxy)  | Soon  |                                                                                                
+| Singleton           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Singleton)  | Soon  |                                                                                                
 
 ## Coming soon
 
@@ -41,7 +42,6 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 - Memento
 - Object Pool
 - Prototype
-- Singleton
 - State
 - Visitor
 

@@ -7,7 +7,7 @@ COLOR_TITLE = \033[0;31m
 
 help:
 		@echo " ${COLOR_TITLE}> GENERAL COMMANDS:${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}build${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}build${COLOR_RESET} (Docker command)"
 		@echo " ${COLOR_TITLE}> LIST OF DESIGN PATTERNS AVAILABLE:${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}abstract-factory${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}adapter${COLOR_RESET}"
@@ -19,10 +19,11 @@ help:
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}observer${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}proxy${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}singleton${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}strategy${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}template-method${COLOR_RESET}"
 
-build project (Docker):
+build:
 	docker build -t design-patterns .
 
 strategy:
@@ -60,3 +61,6 @@ abstract-factory:
 
 proxy:
 	docker run -it design-patterns php /app/example/proxy.php
+
+singleton:
+	docker run -it design-patterns php /app/example/singleton.php
