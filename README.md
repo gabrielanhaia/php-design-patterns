@@ -23,6 +23,7 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 | Builder             |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Builder)  | Soon  |                                                                                                
 | Decorator           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Decorator)  | Soon  |
 | Factory Method      |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/FactoryMethod)  | Soon  |
+| Memento             |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Memento)  | Soon  |
 | Money               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Money)  | Soon  |
 | Null Object         |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/NullObject)  | Soon  |                                                                                                
 | Observer            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Observer)  | Soon  |                                                                                                
@@ -39,7 +40,6 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 - Interpreter
 - Iterator
 - Mediator
-- Memento
 - Object Pool
 - Prototype
 - State

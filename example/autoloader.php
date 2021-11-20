@@ -12,7 +12,8 @@ spl_autoload_register(function ($class) {
 });
 
 if (false === function_exists('dump')) {
-    function dump($data) {
+    function dump($data)
+    {
         lns();
         ln();
         print_r($data);
@@ -23,14 +24,23 @@ if (false === function_exists('dump')) {
     }
 }
 
+if (false === function_exists('dd')) {
+    function dd($data) {
+        dump($data);
+        die;
+    }
+};
+
 if (false === function_exists('ln')) {
-    function ln(){
+    function ln()
+    {
         echo "\n";
     }
 }
 
 if (false === function_exists('lns')) {
-    function lns(){
+    function lns()
+    {
         echo '---------------------------------';
     }
 }

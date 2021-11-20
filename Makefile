@@ -15,6 +15,7 @@ help:
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}decorator${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}facade${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}factory-method${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}memento${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}money${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}observer${COLOR_RESET}"
@@ -64,3 +65,6 @@ proxy:
 
 singleton:
 	docker run -it design-patterns php /app/example/singleton.php
+
+memento:
+	docker run -it design-patterns php /app/example/memento.php
