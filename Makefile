@@ -15,6 +15,7 @@ help:
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}decorator${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}facade${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}factory-method${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}flyweight${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}memento${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}money${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
@@ -68,3 +69,6 @@ singleton:
 
 memento:
 	docker run -it design-patterns php /app/example/memento.php
+
+flyweight:
+	docker run -it design-patterns php /app/example/flyweight.php
