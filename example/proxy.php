@@ -16,6 +16,6 @@ $addressFromProxy = $googleMapsIntegrationProxy->getAddressByCoordinates(1234, 5
 dump($addressFromProxy);
 
 /**
-    Note: The Proxy pattern is much more powerfull.
+    Note: The Proxy pattern is much more powerful.
     You can even use the proxy to manage a Cache layer between the original class, or even add extra validations in this middle layer.
 */

@@ -31,6 +31,7 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 | Observer            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Observer)  | Soon  |                                                                                                
 | Proxy               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Proxy)  | Soon  |                                                                                                
 | Singleton           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Singleton)  | Soon  |                                                                                                
+| State               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/State)  | Soon  |                                                                                                
 
 ## Coming soon
 
@@ -42,7 +43,6 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 - Mediator
 - Object Pool
 - Prototype
-- State
 - Visitor
 
 ## Dependencies

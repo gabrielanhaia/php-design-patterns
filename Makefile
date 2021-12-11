@@ -23,6 +23,7 @@ help:
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}observer${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}proxy${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}singleton${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}state${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}strategy${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}template-method${COLOR_RESET}"
 
@@ -76,3 +77,6 @@ flyweight:
 
 composite:
 	docker run -it design-patterns php /app/example/composite.php
+
+state:
+	docker run -it design-patterns php /app/example/state.php

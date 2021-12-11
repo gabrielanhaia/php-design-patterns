@@ -1,7 +1,7 @@
 <?php
 
 spl_autoload_register(function ($class) {
-    $filePath = str_replace(['App', '\\'], ['src', DIRECTORY_SEPARATOR], $class);
+    $filePath = str_replace(['App\\', '\\'], ['src' . DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $class);
     $filePath = DIRECTORY_SEPARATOR
         . 'app'
         . DIRECTORY_SEPARATOR
