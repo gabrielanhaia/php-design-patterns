@@ -21,6 +21,7 @@ help:
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}money${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}null-object${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}observer${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}prototype${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}proxy${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}singleton${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}state${COLOR_RESET}"
@@ -80,3 +81,6 @@ composite:
 
 state:
 	docker run -it design-patterns php /app/example/state.php
+
+prototype:
+	docker run -it design-patterns php /app/example/prototype.php

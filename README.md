@@ -29,6 +29,7 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 | Money               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Money)  | Soon  |
 | Null Object         |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/NullObject)  | Soon  |                                                                                                
 | Observer            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Observer)  | Soon  |                                                                                                
+| Prototype           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Prototype)  | Soon  |                                                                                                
 | Proxy               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Proxy)  | Soon  |                                                                                                
 | Singleton           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Singleton)  | Soon  |                                                                                                
 | State               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/State)  | Soon  |                                                                                                
@@ -42,7 +43,6 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 - Iterator
 - Mediator
 - Object Pool
-- Prototype
 - Visitor
 
 ## Dependencies
