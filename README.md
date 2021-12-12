@@ -25,6 +25,7 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 | Decorator           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Decorator)  | Soon  |
 | Factory Method      |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/FactoryMethod)  | Soon  |
 | Flyweight           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Flyweight)  | Soon  |
+| Iterator            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Iterator)  | Soon  |
 | Memento             |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Memento)  | Soon  |
 | Money               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Money)  | Soon  |
 | Null Object         |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/NullObject)  | Soon  |                                                                                                
@@ -40,7 +41,6 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 - Chain of Responsibility
 - Command
 - Interpreter
-- Iterator
 - Mediator
 - Object Pool
 - Visitor
