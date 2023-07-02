@@ -3,13 +3,13 @@
 ![Licence](https://img.shields.io/badge/licence-MIT-blue)
 ![Package Stars](https://img.shields.io/badge/stars-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-yellow)
 
-Every week a new Pattern + Article on www.medium.com/@anhaia.gabriel and www.medium.com/mestredev
+Every week a new Pattern + Article on www.medium.com/@anhaia.gabriel and www.medium.com/devwarlocks
 
-# PHP 8.1 - Design Patterns
+# PHP 8.1+ - Design Patterns
 
-This repository was created to show the implementation of a variety of Design Patterns using PHP 8. There is no
+This repository was created to show the implementation of various Design Patterns using PHP 8. There is no
 dependency on a framework, and the examples are the most real as possible based on my own experiences solving real-life
-problems. Once you learn the design pattern and its concept, it will be effortless to apply it in any PHP project.
+problems. Once you learn the design pattern and its concept, applying it in any PHP project will be effortless.
 
 ## Patterns implemented + Article
 
