@@ -3,7 +3,7 @@
 ![Licence](https://img.shields.io/badge/licence-MIT-blue)
 ![Package Stars](https://img.shields.io/badge/stars-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-yellow)
 
-Everyweek a new Pattern + Article on www.medium.com/@anhaia.gabriel and www.medium.com/mestredev
+Every week a new Pattern + Article on www.medium.com/@anhaia.gabriel and www.medium.com/mestredev
 
 # PHP 8.1 - Design Patterns
 
@@ -23,7 +23,7 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 | 6 | Builder             |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Builder)  | Soon  |                                                                                                
 | 7 | Composite           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Composite)  | [LEARN HERE 📖](https://medium.com/devwarlocks/composite-php-desing-patterns-dd01b1d010f7)  |                                                                                                
 | 8 | Decorator           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Decorator)  | Soon  |
-| 9 | Factory Method      |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/FactoryMethod)  | Soon  |
+| 9 | Factory Method      |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/FactoryMethod)  | [LEARN HERE 📖](https://medium.com/devwarlocks/factory-method-pattern-php-design-patterns-3d1df7707c29) |
 | 10 | Flyweight           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Flyweight)  | Soon  |
 | 11 | Iterator            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Iterator)  | Soon  |
 | 12 | Memento             |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Memento)  | Soon  |
@@ -53,23 +53,23 @@ problems. Once you learn the design pattern and its concept, it will be effortle
 
 I strongly recommend that you follow the articles (links above) and run them with Docker. It will be much easier, and you
 need to install Docker on your computer, independent of the OS you are using. With a few commands, you will run/test all
-the Design Patterns implemented throughout the course .
+the Design Patterns implemented throughout the course.
 
 Build de container:
 
 ```# docker build -t design-patterns .``` or if you prefer ```# make build```
 
-Run the following commands in order to test the design patterns:
+Run the following commands to test the design patterns:
 
 ```# make help``` and then you will see the list of commands
 
-You just need to run the command with the pattern you want to test, for example:
+You need to run the command with the pattern you want to test, for example:
 
 ```# make strategy```
 
 ## Additional Information
 
-- If you take a look at the examples into the blog, or inside the folders `/src/{$pattern_name}/` you will notice that in almost
+- If you take a look at the examples in the blog or inside the folders `/src/{$pattern_name}/` you will notice that almost
   all the examples contain a folder called `components`, those folders are the files/classes used to demonstrate how to
   use each pattern. Never consider what is in there as part of the pattern! They are not examples to be followed in your
   applications.
