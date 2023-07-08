@@ -29,7 +29,7 @@ problems. Once you learn the design pattern and its concept, applying it in any 
 | 12 | Memento             |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Memento)  | Soon  |
 | 13 | Money               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Money)  | Soon  |
 | 14 | Null Object         |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/NullObject)  | Soon  |                                                                                                
-| 15 | Observer            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Observer)  | Soon  |                                                                                                
+| 15 | Observer            |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Observer)  | [LEARN HERE 📖](https://medium.com/devwarlocks/observer-php-design-patterns-a4367b137324)  |                                                                                                
 | 16 | Prototype           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Prototype)  | Soon  |                                                                                                
 | 17 | Proxy               |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Proxy)  | Soon  |                                                                                                
 | 18 | Singleton           |[HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Singleton)  | Soon  |                                                                                                
