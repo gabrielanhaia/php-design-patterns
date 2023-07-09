@@ -2,6 +2,8 @@
 
 ![Licence](https://img.shields.io/badge/licence-MIT-blue)
 ![Package Stars](https://img.shields.io/badge/stars-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-yellow)
+[![Build Status](https://travis-ci.com/gabrielanhaia/php-circuit-breaker.svg?branch=master)](https://travis-ci.com/gabrielanhaia/php-circuit-breaker)
+![Code Coverage](https://img.shields.io/badge/coverage-100%25-green)
 
 Every week a new Pattern + Article on www.medium.com/@anhaia.gabriel and www.medium.com/devwarlocks
 
