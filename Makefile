@@ -28,6 +28,7 @@ help:
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}state${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}strategy${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}template-method${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}command${COLOR_RESET}"
 
 build:
 	docker build -t design-patterns .
@@ -88,3 +89,6 @@ prototype:
 
 iterator:
 	docker run -it design-patterns php /app/example/iterator.php
+
+command:
+	docker run -it design-patterns php /app/example/command.php
