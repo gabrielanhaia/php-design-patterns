@@ -32,9 +32,11 @@ if (false === function_exists('dd')) {
 };
 
 if (false === function_exists('ln')) {
-    function ln()
+    function ln(int $lines = 1)
     {
-        echo "\n";
+        for ($i = 0; $i < $lines; $i++) {
+            echo "\n";
+        }
     }
 }
 
