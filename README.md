@@ -13,6 +13,16 @@ This repository was created to show the implementation of various Design Pattern
 dependency on a framework, and the examples are the most real as possible based on my own experiences solving real-life
 problems. Once you learn the design pattern and its concept, applying it in any PHP project will be effortless.
 
+
+### Classification/Type
+
+| Type                                                               | General Article                                                                                     |
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| ![Creational](https://img.shields.io/badge/Creational-light_green) | [LEARN HERE 📖](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/AbstractFactory) | [HERE](https://medium.com/devwarlocks/comparing-creational-design-patterns-making-the-right-choice-428cc351e926) |
+| ![Structural](https://img.shields.io/badge/Structural-8A2BE2)      | SOON                                                                                                |
+| ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | SOON                                                                                                |
+
+
 ## Patterns implemented + Article
 
 | #  | 📖 Pattern              | Classification~Type                                                | Code Example / Implementation                                                              | ✍️ Article / Post 📚                                                                                    |                                                                              
@@ -60,7 +70,9 @@ the Design Patterns implemented throughout the course.
 ```bash 
 docker build -t design-patterns .
 ``` 
-or if you prefer 
+
+or if you prefer
+
 ```bash
 make build
 ```
@@ -70,6 +82,7 @@ make build
 ```bash
 make help
 ``` 
+
 and then you will see the list of commands
 
 #### You need to run the command with the pattern you want to test, for example:
