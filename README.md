@@ -63,7 +63,7 @@ you
 need to install Docker on your computer, independent of the OS you are using. With a few commands, you will run/test all
 the Design Patterns implemented throughout the course.
 
-#### Build de container:
+#### 1. Build de container:
 
 ```bash 
 docker build -t design-patterns .
@@ -75,7 +75,7 @@ or if you prefer
 make build
 ```
 
-#### Run the following commands to test the design patterns:
+#### 2. Run the following commands to test the design patterns:
 
 ```bash
 make help
@@ -83,13 +83,13 @@ make help
 
 and then you will see the list of commands
 
-#### You need to run the command with the pattern you want to test, for example:
+#### 3. You need to run the command with the pattern you want to test, for example:
 
 ```bash
 make strategy
 ```
 
-#### In case you want to see a short description of the pattern, you can run the `make PATTERN_NAME-help`, for example:
+#### 4. In case you want to see a short description of the pattern, you can run the `make PATTERN_NAME-help`, for example:
 
 ```bash
 make strategy-help
