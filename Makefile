@@ -30,6 +30,7 @@ help:
 		@echo "   ${COLOR_COMMENT}Template Method:${COLOR_RESET}   ${COLOR_INFO}# make template-method${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make template-method-help${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}Command:${COLOR_RESET}           ${COLOR_INFO}# make command${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make command-help${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}Interpreter:${COLOR_RESET}       ${COLOR_INFO}# make interpreter${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make interpreter-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Bridge:${COLOR_RESET}       	   ${COLOR_INFO}# make bridge${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make bridge-help${COLOR_RESET}"
 
 # Design Patterns Section
 build:
@@ -98,6 +99,9 @@ command:
 interpreter:
 	docker run -it design-patterns php /app/example/interpreter.php
 
+bridge:
+	docker run -it design-patterns php /app/example/bridge.php
+
 
 # Help Section
 
@@ -163,3 +167,6 @@ command-help:
 
 interpreter-help:
 		@echo "${COLOR_INFO}\n\t> The Interpreter pattern implements a specialized language.${COLOR_RESET}\n"
+
+bridge-help:
+		@echo "${COLOR_INFO}\n\t> The Bridge pattern decouples an abstraction from its implementation so that the two can vary independently. It promotes composition over inheritance.${COLOR_RESET}\n"
