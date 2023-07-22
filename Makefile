@@ -31,76 +31,80 @@ help:
 		@echo "   ${COLOR_COMMENT}Command:${COLOR_RESET}           ${COLOR_INFO}# make command${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make command-help${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}Interpreter:${COLOR_RESET}       ${COLOR_INFO}# make interpreter${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make interpreter-help${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}Bridge:${COLOR_RESET}       	   ${COLOR_INFO}# make bridge${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make bridge-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Visitor:${COLOR_RESET}       	   ${COLOR_INFO}# make visitor${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make visitor-help${COLOR_RESET}"
 
 # Design Patterns Section
 build:
-	docker build -t design-patterns .
+	docker-compose build
 
 strategy:
-	docker run -it design-patterns php /app/example/strategy.php
+	docker-compose run web php /app/example/strategy.php
 
 template-method:
-	docker run -it design-patterns php /app/example/template_method.php
+	docker-compose run web php /app/example/template_method.php
 
 adapter:
-	docker run -it design-patterns php /app/example/adapter.php
+	docker-compose run web php /app/example/adapter.php
 
 null-object:
-	docker run -it design-patterns php /app/example/null_object.php
+	docker-compose run web php /app/example/null_object.php
 
 facade:
-	docker run -it design-patterns php /app/example/facade.php
+	docker-compose run web php /app/example/facade.php
 
 builder:
-	docker run -it design-patterns php /app/example/builder.php
+	docker-compose run web php /app/example/builder.php
 
 observer:
-	docker run -it design-patterns php /app/example/observer.php
+	docker-compose run web php /app/example/observer.php
 
 decorator:
-	docker run -it design-patterns php /app/example/decorator.php
+	docker-compose run web php /app/example/decorator.php
 
 money:
-	docker run -it design-patterns php /app/example/money.php
+	docker-compose run web php /app/example/money.php
 
 factory-method:
-	docker run -it design-patterns php /app/example/factory_method.php
+	docker-compose run web php /app/example/factory_method.php
 
 abstract-factory:
-	docker run -it design-patterns php /app/example/abstract_factory.php
+	docker-compose run web php /app/example/abstract_factory.php
 
 proxy:
-	docker run -it design-patterns php /app/example/proxy.php
+	docker-compose run web php /app/example/proxy.php
 
 singleton:
-	docker run -it design-patterns php /app/example/singleton.php
+	docker-compose run web php /app/example/singleton.php
 
 memento:
-	docker run -it design-patterns php /app/example/memento.php
+	docker-compose run web php /app/example/memento.php
 
 flyweight:
-	docker run -it design-patterns php /app/example/flyweight.php
+	docker-compose run web php /app/example/flyweight.php
 
 composite:
-	docker run -it design-patterns php /app/example/composite.php
+	docker-compose run web php /app/example/composite.php
 
 state:
-	docker run -it design-patterns php /app/example/state.php
+	docker-compose run web php /app/example/state.php
 
 prototype:
-	docker run -it design-patterns php /app/example/prototype.php
+	docker-compose run web php /app/example/prototype.php
 
 iterator:
-	docker run -it design-patterns php /app/example/iterator.php
+	docker-compose run web php /app/example/iterator.php
 
 command:
-	docker run -it design-patterns php /app/example/command.php
+	docker-compose run web php /app/example/command.php
 
 interpreter:
-	docker run -it design-patterns php /app/example/interpreter.php
+	docker-compose run web php /app/example/interpreter.php
 
 bridge:
-	docker run -it design-patterns php /app/example/bridge.php
+	docker-compose run web php /app/example/bridge.php
+
+visitor:
+	docker-compose run web php /app/example/visitor.php
 
 
 # Help Section
@@ -170,3 +174,6 @@ interpreter-help:
 
 bridge-help:
 		@echo "${COLOR_INFO}\n\t> The Bridge pattern decouples an abstraction from its implementation so that the two can vary independently. It promotes composition over inheritance.${COLOR_RESET}\n"
+
+visitor-help:
+		@echo "${COLOR_INFO}\n\t> The Visitor pattern defines a new operation to a class without change.${COLOR_RESET}\n"

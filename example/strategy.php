@@ -30,4 +30,9 @@ switch ($product->getCategory()) {
 $context = new Context($strategy);
 $context->calculateProduct($product);
 
-echo $product->getTaxes();
+lns();ln();
+echo 'Product name: ' . $product->getName();
+ln();
+echo 'Product price: ' . $product->getPrice();
+ln();
+echo 'Total taxes: ' . $product->getTaxes();
