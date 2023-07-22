@@ -35,76 +35,76 @@ help:
 
 # Design Patterns Section
 build:
-	docker-compose build
+	docker build -t design-patterns .
 
 strategy:
-	docker-compose run web php /app/example/strategy.php
+	docker run -it design-patterns php /app/example/strategy.php
 
 template-method:
-	docker-compose run web php /app/example/template_method.php
+	docker run -it design-patterns php /app/example/template_method.php
 
 adapter:
-	docker-compose run web php /app/example/adapter.php
+	docker run -it design-patterns php /app/example/adapter.php
 
 null-object:
-	docker-compose run web php /app/example/null_object.php
+	docker run -it design-patterns php /app/example/null_object.php
 
 facade:
-	docker-compose run web php /app/example/facade.php
+	docker run -it design-patterns php /app/example/facade.php
 
 builder:
-	docker-compose run web php /app/example/builder.php
+	docker run -it design-patterns php /app/example/builder.php
 
 observer:
-	docker-compose run web php /app/example/observer.php
+	docker run -it design-patterns php /app/example/observer.php
 
 decorator:
-	docker-compose run web php /app/example/decorator.php
+	docker run -it design-patterns php /app/example/decorator.php
 
 money:
-	docker-compose run web php /app/example/money.php
+	docker run -it design-patterns php /app/example/money.php
 
 factory-method:
-	docker-compose run web php /app/example/factory_method.php
+	docker run -it design-patterns php /app/example/factory_method.php
 
 abstract-factory:
-	docker-compose run web php /app/example/abstract_factory.php
+	docker run -it design-patterns php /app/example/abstract_factory.php
 
 proxy:
-	docker-compose run web php /app/example/proxy.php
+	docker run -it design-patterns php /app/example/proxy.php
 
 singleton:
-	docker-compose run web php /app/example/singleton.php
+	docker run -it design-patterns php /app/example/singleton.php
 
 memento:
-	docker-compose run web php /app/example/memento.php
+	docker run -it design-patterns php /app/example/memento.php
 
 flyweight:
-	docker-compose run web php /app/example/flyweight.php
+	docker run -it design-patterns php /app/example/flyweight.php
 
 composite:
-	docker-compose run web php /app/example/composite.php
+	docker run -it design-patterns php /app/example/composite.php
 
 state:
-	docker-compose run web php /app/example/state.php
+	docker run -it design-patterns php /app/example/state.php
 
 prototype:
-	docker-compose run web php /app/example/prototype.php
+	docker run -it design-patterns php /app/example/prototype.php
 
 iterator:
-	docker-compose run web php /app/example/iterator.php
+	docker run -it design-patterns php /app/example/iterator.php
 
 command:
-	docker-compose run web php /app/example/command.php
+	docker run -it design-patterns php /app/example/command.php
 
 interpreter:
-	docker-compose run web php /app/example/interpreter.php
+	docker run -it design-patterns php /app/example/interpreter.php
 
 bridge:
-	docker-compose run web php /app/example/bridge.php
+	docker run -it design-patterns php /app/example/bridge.php
 
 visitor:
-	docker-compose run web php /app/example/visitor.php
+	docker run -it design-patterns php /app/example/visitor.php
 
 
 # Help Section
