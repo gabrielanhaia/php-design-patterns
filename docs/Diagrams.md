@@ -23,6 +23,8 @@ classDiagram
     ConcreteFactory2 : +createProductB()
 ```
 
+---
+
 ### Builder   
 
 ```mermaid
@@ -41,6 +43,8 @@ classDiagram
 
 ```
 
+---
+
 ### Factory Method  
 
 ```mermaid
@@ -54,6 +58,8 @@ classDiagram
     ConcreteProduct <-- ConcreteCreator : Creates
 ```
 
+---
+
 ### Prototype
 
 ```mermaid
@@ -65,6 +71,8 @@ classDiagram
     Client -- ConcretePrototype : Creates clones
 ```
 
+---
+
 ### Singleton
 
 ```mermaid
@@ -73,6 +81,8 @@ classDiagram
     Singleton : -Singleton() Private
     Singleton : +getInstance() Static
 ```
+
+---
 
 ### Object Pool
 
