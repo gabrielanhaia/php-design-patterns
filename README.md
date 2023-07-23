@@ -50,7 +50,7 @@ problems. Once you learn the design pattern and its concept, applying it in any 
 | 23 | Chain of Responsibility | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | SOON                                                                                       | SOON                                                                                                    |
 | 24 | Interpreter             | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Interpreter)     | SOON                                                                                                    |
 | 25 | Mediator                | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | SOON                                                                                       | SOON                                                                                                    |
-| 26 | Visitor                 | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Visitor)         | SOON                                                                                                    |
+| 26 | Visitor                 | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Visitor)         | [LEARN HERE 📖](https://medium.com/devwarlocks/visitor-php-design-patterns-289224470ebd)                                                                                                    |
 
 ## Dependencies
 
@@ -63,7 +63,7 @@ you
 need to install Docker on your computer, independent of the OS you are using. With a few commands, you will run/test all
 the Design Patterns implemented throughout the course.
 
-#### 1. Build de container:
+#### 1. Build the container:
 
 ```bash 
 docker build -t design-patterns .
@@ -101,6 +101,6 @@ With that, you should see a one-line description of the pattern.
 
 - If you take a look at the examples in the blog or inside the folders `/src/{$pattern_name}/` you will notice that
   almost
-  all the examples contain a folder called `components`, those folders are the files/classes used to demonstrate how to
+  All the examples contain a folder called `components`; those folders are the files/classes used to demonstrate how to
   use each pattern. Never consider what is in there as part of the pattern! They are not examples to be followed in your
   applications.
