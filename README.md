@@ -11,13 +11,13 @@ Every week a new Pattern + Article on www.medium.com/@anhaia.gabriel and www.med
 
 This repository was created to show the implementation of various Design Patterns using PHP 8.2. There is no
 dependency on a framework, and the examples are the most real as possible based on my own experiences solving real-life
-problems. Once you learn the design pattern and its concept, applying it in any PHP project will be effortless.
+problems. Applying the design pattern and its concept in any PHP project will be effortless once you learn the design pattern and its concept.
 
 ### Classification/Type
 
 | Type                                                               | General Article                                                                                                           | Diagrams                                                                             |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| ![Creational](https://img.shields.io/badge/Creational-light_green) | [LEARN HERE 📖](https://medium.com/devwarlocks/comparing-creational-design-patterns-making-the-right-choice-428cc351e926) | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/docs/Diagrams) |
+| ![Creational](https://img.shields.io/badge/Creational-light_green) | [LEARN HERE 📖](https://medium.com/devwarlocks/comparing-creational-design-patterns-making-the-right-choice-428cc351e926) | [HERE]([https://github.com/gabrielanhaia/php-design-patterns/tree/main/docs/Diagrams](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/Diagrams.md#creational-patterns)) |
 | ![Structural](https://img.shields.io/badge/Structural-8A2BE2)      | SOON                                                                                                                      | SOON                                                                                 |
 | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | SOON                                                                                                                      | SOON                                                                                 |
 
