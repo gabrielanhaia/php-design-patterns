@@ -32,6 +32,7 @@ help:
 		@echo "   ${COLOR_COMMENT}Interpreter:${COLOR_RESET}       ${COLOR_INFO}# make interpreter${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make interpreter-help${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}Bridge:${COLOR_RESET}       	   ${COLOR_INFO}# make bridge${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make bridge-help${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}Visitor:${COLOR_RESET}       	   ${COLOR_INFO}# make visitor${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make visitor-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Mediator:${COLOR_RESET}          ${COLOR_INFO}# make mediator${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make mediator-help${COLOR_RESET}"
 
 # Design Patterns Section
 build:
@@ -106,6 +107,9 @@ bridge:
 visitor:
 	docker run -it design-patterns php /app/example/visitor.php
 
+mediator:
+	docker run -it design-patterns php /app/example/mediator.php
+
 
 # Help Section
 
@@ -177,3 +181,6 @@ bridge-help:
 
 visitor-help:
 		@echo "${COLOR_INFO}\n\t> The Visitor pattern defines a new operation to a class without change.${COLOR_RESET}\n"
+
+mediator-help:
+		@echo "${COLOR_INFO}\n\t> The Mediator pattern defines an object that encapsulates how a set of objects interact. It promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.${COLOR_RESET}\n"
