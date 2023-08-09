@@ -33,6 +33,7 @@ help:
 		@echo "   ${COLOR_COMMENT}Bridge:${COLOR_RESET}       	   ${COLOR_INFO}# make bridge${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make bridge-help${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}Visitor:${COLOR_RESET}       	   ${COLOR_INFO}# make visitor${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make visitor-help${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}Mediator:${COLOR_RESET}          ${COLOR_INFO}# make mediator${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make mediator-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Object Pool:${COLOR_RESET}        ${COLOR_INFO}# make object-pool${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make object-pool-help${COLOR_RESET}"
 
 # Design Patterns Section
 build:
@@ -110,6 +111,8 @@ visitor:
 mediator:
 	docker run -it design-patterns php /app/example/mediator.php
 
+object-pool:
+	docker run -it design-patterns php /app/example/object_pool.php
 
 # Help Section
 
@@ -184,3 +187,6 @@ visitor-help:
 
 mediator-help:
 		@echo "${COLOR_INFO}\n\t> The Mediator pattern defines an object that encapsulates how a set of objects interact. It promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.${COLOR_RESET}\n"
+
+object-pool-help:
+		@echo "${COLOR_INFO}\n\t> The Object Pool pattern avoids expensive acquisition and release of resources by recycling objects that are no longer in use.${COLOR_RESET}\n"
