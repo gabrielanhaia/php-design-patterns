@@ -9,31 +9,32 @@ help:
 		@echo " ${COLOR_TITLE}> GENERAL COMMANDS:${COLOR_RESET}"
 		@echo "   ${COLOR_COMMENT}# make${COLOR_RESET} ${COLOR_INFO}build${COLOR_RESET} (Docker command)"
 		@echo " ${COLOR_TITLE}> LIST OF DESIGN PATTERNS AVAILABLE WITH HELP COMMANDS:${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Abstract Factory:${COLOR_RESET}   ${COLOR_INFO}# make abstract-factory${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make abstract-factory-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Adapter:${COLOR_RESET}           ${COLOR_INFO}# make adapter${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make adapter-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Builder:${COLOR_RESET}           ${COLOR_INFO}# make builder${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make builder-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Composite:${COLOR_RESET}         ${COLOR_INFO}# make composite${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make composite-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Decorator:${COLOR_RESET}         ${COLOR_INFO}# make decorator${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make decorator-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Facade:${COLOR_RESET}            ${COLOR_INFO}# make facade${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make facade-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Factory Method:${COLOR_RESET}    ${COLOR_INFO}# make factory-method${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make factory-method-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Flyweight:${COLOR_RESET}         ${COLOR_INFO}# make flyweight${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make flyweight-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Iterator:${COLOR_RESET}          ${COLOR_INFO}# make iterator${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make iterator-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Memento:${COLOR_RESET}           ${COLOR_INFO}# make memento${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make memento-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Money:${COLOR_RESET}             ${COLOR_INFO}# make money${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make money-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Null Object:${COLOR_RESET}       ${COLOR_INFO}# make null-object${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make null-object-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Observer:${COLOR_RESET}          ${COLOR_INFO}# make observer${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make observer-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Prototype:${COLOR_RESET}         ${COLOR_INFO}# make prototype${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make prototype-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Proxy:${COLOR_RESET}             ${COLOR_INFO}# make proxy${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make proxy-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Singleton:${COLOR_RESET}         ${COLOR_INFO}# make singleton${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make singleton-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}State:${COLOR_RESET}             ${COLOR_INFO}# make state${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make state-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Strategy:${COLOR_RESET}          ${COLOR_INFO}# make strategy${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make strategy-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Template Method:${COLOR_RESET}   ${COLOR_INFO}# make template-method${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make template-method-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Command:${COLOR_RESET}           ${COLOR_INFO}# make command${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make command-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Interpreter:${COLOR_RESET}       ${COLOR_INFO}# make interpreter${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make interpreter-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Bridge:${COLOR_RESET}       	   ${COLOR_INFO}# make bridge${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make bridge-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Visitor:${COLOR_RESET}       	   ${COLOR_INFO}# make visitor${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make visitor-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Mediator:${COLOR_RESET}          ${COLOR_INFO}# make mediator${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make mediator-help${COLOR_RESET}"
-		@echo "   ${COLOR_COMMENT}Object Pool:${COLOR_RESET}        ${COLOR_INFO}# make object-pool${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make object-pool-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Abstract Factory:${COLOR_RESET}    	 ${COLOR_INFO}# make abstract-factory${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make abstract-factory-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Adapter:${COLOR_RESET}           		 ${COLOR_INFO}# make adapter${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make adapter-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Builder:${COLOR_RESET}           		 ${COLOR_INFO}# make builder${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make builder-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Composite:${COLOR_RESET}         		 ${COLOR_INFO}# make composite${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make composite-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Decorator:${COLOR_RESET}         		 ${COLOR_INFO}# make decorator${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make decorator-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Facade:${COLOR_RESET}            		 ${COLOR_INFO}# make facade${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make facade-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Factory Method:${COLOR_RESET}    		 ${COLOR_INFO}# make factory-method${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make factory-method-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Flyweight:${COLOR_RESET}         		 ${COLOR_INFO}# make flyweight${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make flyweight-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Iterator:${COLOR_RESET}          		 ${COLOR_INFO}# make iterator${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make iterator-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Memento:${COLOR_RESET}           		 ${COLOR_INFO}# make memento${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make memento-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Money:${COLOR_RESET}             		 ${COLOR_INFO}# make money${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make money-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Null Object:${COLOR_RESET}       		 ${COLOR_INFO}# make null-object${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make null-object-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Observer:${COLOR_RESET}          		 ${COLOR_INFO}# make observer${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make observer-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Prototype:${COLOR_RESET}         		 ${COLOR_INFO}# make prototype${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make prototype-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Proxy:${COLOR_RESET}             		 ${COLOR_INFO}# make proxy${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make proxy-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Singleton:${COLOR_RESET}         		 ${COLOR_INFO}# make singleton${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make singleton-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}State:${COLOR_RESET}             		 ${COLOR_INFO}# make state${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make state-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Strategy:${COLOR_RESET}          		 ${COLOR_INFO}# make strategy${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make strategy-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Template Method:${COLOR_RESET}   		 ${COLOR_INFO}# make template-method${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make template-method-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Command:${COLOR_RESET}           		 ${COLOR_INFO}# make command${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make command-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Interpreter:${COLOR_RESET}       		 ${COLOR_INFO}# make interpreter${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make interpreter-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Bridge:${COLOR_RESET}       	   		 ${COLOR_INFO}# make bridge${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make bridge-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Visitor:${COLOR_RESET}       	   		 ${COLOR_INFO}# make visitor${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make visitor-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Mediator:${COLOR_RESET}          		 ${COLOR_INFO}# make mediator${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make mediator-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Object Pool:${COLOR_RESET}        	 ${COLOR_INFO}# make object-pool${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make object-pool-help${COLOR_RESET}"
+		@echo "   ${COLOR_COMMENT}Chain of Responsibility:${COLOR_RESET} ${COLOR_INFO}# make chain-of-responsibility${COLOR_RESET} ${COLOR_COMMENT}OR${COLOR_RESET} ${COLOR_INFO}# make chain-of-responsibility-help${COLOR_RESET}"
 
 # Design Patterns Section
 build:
@@ -114,6 +115,9 @@ mediator:
 object-pool:
 	docker run -it design-patterns php /app/example/object_pool.php
 
+chain-of-responsibility:
+	docker run -it design-patterns php /app/example/chain_of_responsibility.php
+
 # Help Section
 
 abstract-factory-help:
@@ -190,3 +194,6 @@ mediator-help:
 
 object-pool-help:
 		@echo "${COLOR_INFO}\n\t> The Object Pool pattern avoids expensive acquisition and release of resources by recycling objects that are no longer in use.${COLOR_RESET}\n"
+
+chain-of-responsibility-help:
+		@echo "${COLOR_INFO}\n\t> The Chain of Responsibility pattern avoids coupling the sender of a request to its receiver by giving more than one object a chance to handle the request.${COLOR_RESET}\n"
