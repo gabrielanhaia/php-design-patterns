@@ -1,8 +1,6 @@
-# Class Diagrams
+# Creational Patterns
 
-## Creational Patterns
-
-### Abstract Factory
+## Abstract Factory
 
 ```mermaid
 classDiagram
@@ -25,7 +23,7 @@ classDiagram
 
 ---
 
-### Builder   
+## Builder   
 
 ```mermaid
 classDiagram
@@ -45,7 +43,7 @@ classDiagram
 
 ---
 
-### Factory Method  
+## Factory Method  
 
 ```mermaid
 classDiagram
@@ -60,7 +58,7 @@ classDiagram
 
 ---
 
-### Prototype
+## Prototype
 
 ```mermaid
 classDiagram
@@ -73,7 +71,7 @@ classDiagram
 
 ---
 
-### Singleton
+## Singleton
 
 ```mermaid
 classDiagram
@@ -84,7 +82,7 @@ classDiagram
 
 ---
 
-### Object Pool
+## Object Pool
 
 ```mermaid
 classDiagram

@@ -1,6 +1,6 @@
-## Structural Patterns
+# Structural Patterns
 
-### Adapter
+## Adapter
 
 ```mermaid
 classDiagram
@@ -24,7 +24,7 @@ classDiagram
 
 ---
 
-### Bridge
+## Bridge
 
 ```mermaid
 classDiagram
@@ -40,7 +40,7 @@ classDiagram
 
 ---
 
-### Decorator
+## Decorator
 
 ```mermaid
 classDiagram
@@ -59,7 +59,7 @@ classDiagram
 ---
 
 
-### Facade
+## Facade
 
 ```mermaid
 classDiagram
@@ -78,4 +78,82 @@ classDiagram
     class SubsystemClassB {
         +operationB()
     }
+```
+
+---
+
+## Proxy
+
+```mermaid
+classDiagram
+    class Subject {
+        +request(): void
+    }
+
+    class RealSubject {
+        +request(): void
+    }
+
+    class Proxy {
+        -realSubject: RealSubject
+        +request(): void
+    }
+
+    Subject <|-- RealSubject
+    Subject <|-- Proxy
+    Proxy o-- RealSubject
+```
+
+
+---
+
+## Flyweight
+
+```mermaid
+classDiagram
+    class FlyweightFactory {
+        +getFlyweight(key): Flyweight
+    }
+
+    class Flyweight {
+        +operation(extrinsicState): void
+    }
+
+    class ConcreteFlyweight {
+        -intrinsicState: string
+        +operation(extrinsicState): void
+    }
+
+    FlyweightFactory o-- Flyweight
+    Flyweight <|-- ConcreteFlyweight
+```
+
+
+---
+
+## Composite
+
+```mermaid
+classDiagram
+    class Component {
+        +operation(): void
+        +add(child: Component): void
+        +remove(child: Component): void
+        +getChild(index): Component
+    }
+
+    class Leaf {
+        +operation(): void
+    }
+
+    class Composite {
+        +operation(): void
+        +add(child: Component): void
+        +remove(child: Component): void
+        +getChild(index): Component
+    }
+
+    Component <|-- Leaf
+    Component <|-- Composite
+    Composite o-- Component : contains
 ```
