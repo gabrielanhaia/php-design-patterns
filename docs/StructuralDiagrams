@@ -1,0 +1,81 @@
+## Structural Patterns
+
+### Adapter
+
+```mermaid
+classDiagram
+    class Target {
+        +request(): void
+    }
+
+    class Adapter {
+        -adaptee: Adaptee
+        +request(): void
+    }
+
+    class Adaptee {
+        +specificRequest(): void
+    }
+
+    Target <|-- Adapter : adapts
+    Adapter o-- Adaptee : has-a
+
+```
+
+---
+
+### Bridge
+
+```mermaid
+classDiagram
+    Client -- Abstraction : Uses
+    Abstraction o-- Implementor : Uses
+    Implementor <|.. ConcreteImplementorA : Implements
+    Implementor <|.. ConcreteImplementorB : Implements
+    Abstraction : +operation()
+    Implementor : +operationImpl()
+    ConcreteImplementorA : +operationImpl()
+    ConcreteImplementorB : +operationImpl()
+```
+
+---
+
+### Decorator
+
+```mermaid
+classDiagram
+    Client -- Component : Uses
+    Decorator --|> Component : Extends
+    ConcreteDecoratorA --|> Decorator : Extends
+    ConcreteDecoratorB --|> Decorator : Extends
+    ConcreteComponent --|> Component : Implements
+    Decorator o-- Component : Wraps
+    Component : +operation()
+    Decorator : +operation()
+    ConcreteDecoratorA : +addedBehavior()
+    ConcreteDecoratorB : +addedBehavior()
+```
+
+---
+
+
+### Facade
+
+```mermaid
+classDiagram
+    Client -- Facade : Uses
+    Facade o-- SubsystemClassA : Uses
+    Facade o-- SubsystemClassB : Uses
+
+    class Facade {
+        +operationWrapper()
+    }
+
+    class SubsystemClassA {
+        +operationA()
+    }
+
+    class SubsystemClassB {
+        +operationB()
+    }
+```
