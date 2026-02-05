@@ -1,107 +1,139 @@
-<img src="./logo.png" alt="Logo - PHP 8.1 Design Patterns"  width="80%" height="80%">
+<img src="./logo.png" alt="Logo - PHP 8.2 Design Patterns" width="80%" height="80%">
 
-![Licence](https://img.shields.io/badge/licence-MIT-blue)
-![Package Stars](https://img.shields.io/badge/stars-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-yellow)
-[![Build Status](https://travis-ci.com/gabrielanhaia/php-circuit-breaker.svg?branch=master)](https://travis-ci.com/gabrielanhaia/php-circuit-breaker)
-![Code Coverage](https://img.shields.io/badge/coverage-100%25-green)
+[![Licence](https://img.shields.io/github/license/gabrielanhaia/php-design-patterns)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/gabrielanhaia/php-design-patterns)](https://github.com/gabrielanhaia/php-design-patterns/stargazers)
+[![Issues](https://img.shields.io/github/issues/gabrielanhaia/php-design-patterns)](https://github.com/gabrielanhaia/php-design-patterns/issues)
+[![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20Me%20A%20Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/anhaia)
 
-Every week a new Pattern + Article on www.medium.com/@anhaia.gabriel and www.medium.com/devwarlocks
+# PHP 8.2+ Design Patterns
 
-# PHP 8.2+ - Design Patterns
+Learn how to implement the most important Design Patterns in PHP. This repository contains **26 patterns** with real-world examples, runnable code, class diagrams, and companion articles.
 
-This repository was created to show the implementation of various Design Patterns using PHP 8.2. There is no
-dependency on a framework, and the examples are the most real as possible based on my own experiences solving real-life
-problems. Applying the design pattern and its concept in any PHP project will be effortless once you learn the design
-pattern and its concept.
+No framework dependencies. Every example is based on real problems and can be applied directly to any PHP project.
 
-### Classification/Type
+New patterns and articles published on [Medium @devwarlocks](https://medium.com/devwarlocks) and [Medium @anhaia.gabriel](https://medium.com/@anhaia.gabriel).
 
-| Type                                                               | General Article                                                                                                           | Diagrams                                                                                                    |
-|--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| ![Creational](https://img.shields.io/badge/Creational-light_green) | [LEARN HERE 📖](https://medium.com/devwarlocks/comparing-creational-design-patterns-making-the-right-choice-428cc351e926) | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Creational.md) |
-| ![Structural](https://img.shields.io/badge/Structural-8A2BE2)      | SOON                                                                                                                      | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Structural.md)                                                                                                        |
-| ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | SOON                                                                                                                      | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md)        |
+---
 
-## Patterns implemented + Article
+## Table of Contents
 
-| #  | 📖 Pattern              | Classification~Type                                                | Code Example / Implementation                                                              | ✍️ Article / Post 📚                                                                                    | Diagram                                                                                                  |                                                                             
-|----|-------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|                                                          
-| 1  | Abstract Factory        | ![Creational](https://img.shields.io/badge/Creational-light_green) | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/AbstractFactory) | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Creational.md#abstract-factory) |
-| 2  | Builder                 | ![Creational](https://img.shields.io/badge/Creational-light_green) | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Builder)         | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Creational.md#builder)          |                                                                                                
-| 3  | Factory Method          | ![Creational](https://img.shields.io/badge/Creational-light_green) | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/FactoryMethod)   | [LEARN HERE 📖](https://medium.com/devwarlocks/factory-method-pattern-php-design-patterns-3d1df7707c29) | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Creational.md#factory-method)   |
-| 4  | Prototype               | ![Creational](https://img.shields.io/badge/Creational-light_green) | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Prototype)       | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Creational.md#prototype)        |                                                                                                
-| 5  | Singleton               | ![Creational](https://img.shields.io/badge/Creational-light_green) | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Singleton)       | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Creational.md#singleton)        |                                                                                                
-| 6  | Object Pool             | ![Creational](https://img.shields.io/badge/Creational-light_green) | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/ObjectPool)                                                                                       | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Creational.md#object-pool)      |
-| 7  | Adapter                 | ![Structural](https://img.shields.io/badge/Structural-8A2BE2)      | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Adapter)         | [LEARN HERE 📖 ](https://medium.com/mestredev/adapter-php-8-75e00034ae48)                               | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Structural.md#adapter)                                                                                                       |                           
-| 8  | Composite               | ![Structural](https://img.shields.io/badge/Structural-8A2BE2)      | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Composite)       | [LEARN HERE 📖](https://medium.com/devwarlocks/composite-php-desing-patterns-dd01b1d010f7)              | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Structural.md#composite)                                                                                                      |                                                                                               
-| 9  | Bridge                  | ![Structural](https://img.shields.io/badge/Structural-8A2BE2)      | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Bridge)          | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Structural.md#bridge)                                                                                                      |
-| 10 | Facade                  | ![Structural](https://img.shields.io/badge/Structural-8A2BE2)      | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Facade)          | [LEARN HERE 📖 ](https://medium.com/mestredev/facade-php-8-design-patterns-40b1ef8566b5)                | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Structural.md#facade)                                                                                                      |           
-| 11 | Decorator               | ![Structural](https://img.shields.io/badge/Structural-8A2BE2)      | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Decorator)       | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Structural.md#decorator)                                                                                                      |
-| 12 | Flyweight               | ![Structural](https://img.shields.io/badge/Structural-8A2BE2)      | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Flyweight)       | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Structural.md#flyweight)                                                                                                      |
-| 13 | Proxy                   | ![Structural](https://img.shields.io/badge/Structural-8A2BE2)      | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Proxy)           | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Structural.md#proxy)                                                                                                      |                                                                                                
-| 14 | Template Method         | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/TemplateMethod)  | [LEARN HERE 📖 ](https://medium.com/mestredev/template-method-php-8-a357f3665a4b)                       | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#template-method)  |                    
-| 15 | Strategy                | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Strategy)        | [LEARN HERE 📖 ](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed)           | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#strategy)         |       
-| 16 | Iterator                | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Iterator)        | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#iterator)          |
-| 17 | Memento                 | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Memento)         | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#memento)           |
-| 18 | Money                   | ![X](https://img.shields.io/badge/X-grey)                          | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Money)           | [LEARN HERE 📖](https://medium.com/devwarlocks/money-pattern-with-symfony-framework-55eff713b3d5)       | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#money)             |
-| 19 | Null Object             | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/NullObject)      | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#null-object)       |                                                                                                
-| 20 | Observer                | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Observer)        | [LEARN HERE 📖](https://medium.com/devwarlocks/observer-php-design-patterns-a4367b137324)               | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#observer)          |                                                                                               
-| 21 | State                   | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/State)           | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#state)             |                                                                                                
-| 22 | Command                 | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Command)         | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#command)           |
-| 23 | Chain of Responsibility | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/ChainOfResponsibility)                                                                                       | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#chain-of-responsibility) |
-| 24 | Interpreter             | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Interpreter)     | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#interpreter)       |
-| 25 | Mediator                | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Mediator)        | SOON                                                                                                    | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#mediator)          |
-| 26 | Visitor                 | ![Behavioral](https://img.shields.io/badge/Behavioral-red)         | [HERE](https://github.com/gabrielanhaia/php-design-patterns/tree/main/src/Visitor)         | [LEARN HERE 📖](https://medium.com/devwarlocks/visitor-php-design-patterns-289224470ebd)                | [HERE](https://github.com/gabrielanhaia/php-design-patterns/blob/main/docs/diagrams/Behavioral.md#visitor)           |
+- [Patterns Overview](#patterns-overview)
+- [Creational Patterns](#creational-patterns)
+- [Structural Patterns](#structural-patterns)
+- [Behavioral Patterns](#behavioral-patterns)
+- [Other Patterns](#other-patterns)
+- [Getting Started](#getting-started)
+- [Additional Information](#additional-information)
+- [License](#license)
 
-## Dependencies
+---
+
+## Patterns Overview
+
+| Type | General Article | Diagrams |
+|------|----------------|----------|
+| ![Creational](https://img.shields.io/badge/Creational-light_green) | [Learn here](https://medium.com/devwarlocks/comparing-creational-design-patterns-making-the-right-choice-428cc351e926) | [Diagrams](docs/diagrams/Creational.md) |
+| ![Structural](https://img.shields.io/badge/Structural-8A2BE2) | SOON | [Diagrams](docs/diagrams/Structural.md) |
+| ![Behavioral](https://img.shields.io/badge/Behavioral-red) | SOON | [Diagrams](docs/diagrams/Behavioral.md) |
+
+---
+
+## Creational Patterns
+
+| # | Pattern | Code | Article | Diagram |
+|---|---------|------|---------|---------|
+| 1 | Abstract Factory | [Source](src/AbstractFactory) | SOON | [Diagram](docs/diagrams/Creational.md#abstract-factory) |
+| 2 | Builder | [Source](src/Builder) | SOON | [Diagram](docs/diagrams/Creational.md#builder) |
+| 3 | Factory Method | [Source](src/FactoryMethod) | [Read](https://medium.com/devwarlocks/factory-method-pattern-php-design-patterns-3d1df7707c29) | [Diagram](docs/diagrams/Creational.md#factory-method) |
+| 4 | Prototype | [Source](src/Prototype) | SOON | [Diagram](docs/diagrams/Creational.md#prototype) |
+| 5 | Singleton | [Source](src/Singleton) | SOON | [Diagram](docs/diagrams/Creational.md#singleton) |
+| 6 | Object Pool | [Source](src/ObjectPool) | SOON | [Diagram](docs/diagrams/Creational.md#object-pool) |
+
+## Structural Patterns
+
+| # | Pattern | Code | Article | Diagram |
+|---|---------|------|---------|---------|
+| 7 | Adapter | [Source](src/Adapter) | [Read](https://medium.com/mestredev/adapter-php-8-75e00034ae48) | [Diagram](docs/diagrams/Structural.md#adapter) |
+| 8 | Composite | [Source](src/Composite) | [Read](https://medium.com/devwarlocks/composite-php-desing-patterns-dd01b1d010f7) | [Diagram](docs/diagrams/Structural.md#composite) |
+| 9 | Bridge | [Source](src/Bridge) | SOON | [Diagram](docs/diagrams/Structural.md#bridge) |
+| 10 | Facade | [Source](src/Facade) | [Read](https://medium.com/mestredev/facade-php-8-design-patterns-40b1ef8566b5) | [Diagram](docs/diagrams/Structural.md#facade) |
+| 11 | Decorator | [Source](src/Decorator) | SOON | [Diagram](docs/diagrams/Structural.md#decorator) |
+| 12 | Flyweight | [Source](src/Flyweight) | SOON | [Diagram](docs/diagrams/Structural.md#flyweight) |
+| 13 | Proxy | [Source](src/Proxy) | SOON | [Diagram](docs/diagrams/Structural.md#proxy) |
+
+## Behavioral Patterns
+
+| # | Pattern | Code | Article | Diagram |
+|---|---------|------|---------|---------|
+| 14 | Template Method | [Source](src/TemplateMethod) | [Read](https://medium.com/mestredev/template-method-php-8-a357f3665a4b) | [Diagram](docs/diagrams/Behavioral.md#template-method) |
+| 15 | Strategy | [Source](src/Strategy) | [Read](https://medium.com/mestredev/strategy-in-php-8-design-patterns-2044e5ef54ed) | [Diagram](docs/diagrams/Behavioral.md#strategy) |
+| 16 | Iterator | [Source](src/Iterator) | SOON | [Diagram](docs/diagrams/Behavioral.md#iterator) |
+| 17 | Memento | [Source](src/Memento) | SOON | [Diagram](docs/diagrams/Behavioral.md#memento) |
+| 19 | Null Object | [Source](src/NullObject) | SOON | [Diagram](docs/diagrams/Behavioral.md#null-object) |
+| 20 | Observer | [Source](src/Observer) | [Read](https://medium.com/devwarlocks/observer-php-design-patterns-a4367b137324) | [Diagram](docs/diagrams/Behavioral.md#observer) |
+| 21 | State | [Source](src/State) | SOON | [Diagram](docs/diagrams/Behavioral.md#state) |
+| 22 | Command | [Source](src/Command) | SOON | [Diagram](docs/diagrams/Behavioral.md#command) |
+| 23 | Chain of Responsibility | [Source](src/ChainOfResponsibility) | SOON | [Diagram](docs/diagrams/Behavioral.md#chain-of-responsibility) |
+| 24 | Interpreter | [Source](src/Interpreter) | SOON | [Diagram](docs/diagrams/Behavioral.md#interpreter) |
+| 25 | Mediator | [Source](src/Mediator) | SOON | [Diagram](docs/diagrams/Behavioral.md#mediator) |
+| 26 | Visitor | [Source](src/Visitor) | [Read](https://medium.com/devwarlocks/visitor-php-design-patterns-289224470ebd) | [Diagram](docs/diagrams/Behavioral.md#visitor) |
+
+## Other Patterns
+
+| # | Pattern | Code | Article | Diagram |
+|---|---------|------|---------|---------|
+| 18 | Money | [Source](src/Money) | [Read](https://medium.com/devwarlocks/money-pattern-with-symfony-framework-55eff713b3d5) | [Diagram](docs/diagrams/Behavioral.md#money) |
+
+---
+
+## Getting Started
+
+### Prerequisites
 
 - [Docker](https://www.docker.com)
 
-## Running the project
-
-I strongly recommend that you follow the articles (links above) and run them with Docker. It will be much easier, and
-you
-need to install Docker on your computer, independent of the OS you are using. With a few commands, you will run/test all
-the Design Patterns implemented throughout the course.
-
-#### 1. Build the container:
-
-```bash 
-docker build -t design-patterns .
-``` 
-
-or if you prefer
+### 1. Build the container
 
 ```bash
 make build
 ```
 
-#### 2. Run the following commands to test the design patterns:
+or
+
+```bash
+docker build -t design-patterns .
+```
+
+### 2. List all available patterns
 
 ```bash
 make help
-``` 
+```
 
-and then you will see the list of commands
-
-#### 3. You need to run the command with the pattern you want to test, for example:
+### 3. Run a pattern
 
 ```bash
 make strategy
 ```
 
-#### 4. In case you want to see a short description of the pattern, you can run the `make PATTERN_NAME-help`, for example:
+### 4. Get a short description of a pattern
 
 ```bash
 make strategy-help
 ```
 
-With that, you should see a one-line description of the pattern.
+---
 
 ## Additional Information
 
-- If you take a look at the examples in the blog or inside the folders `/src/{$pattern_name}/` you will notice that
-  almost
-  All the examples contain a folder called `components`; those folders are the files/classes used to demonstrate how to
-  use each pattern. Never consider what is in there as part of the pattern! They are not examples to be followed in your
-  applications.
+If you look at the examples inside each `/src/{pattern_name}/` folder, you'll notice most contain a `components` subfolder. These files are supporting classes used to demonstrate the pattern in action. They are **not** part of the pattern itself and should not be taken as examples to follow in your own applications.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+If this project helped you learn, consider giving it a star or [buying me a coffee](https://buymeacoffee.com/anhaia).
